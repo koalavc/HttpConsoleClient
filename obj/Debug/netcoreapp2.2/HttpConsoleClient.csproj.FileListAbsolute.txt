@@ -1,0 +1,11 @@
+C:\Users\vincent\Documents\projects\HttpConsoleClient\bin\Debug\netcoreapp2.2\HttpConsoleClient.deps.json
+C:\Users\vincent\Documents\projects\HttpConsoleClient\bin\Debug\netcoreapp2.2\HttpConsoleClient.runtimeconfig.json
+C:\Users\vincent\Documents\projects\HttpConsoleClient\bin\Debug\netcoreapp2.2\HttpConsoleClient.runtimeconfig.dev.json
+C:\Users\vincent\Documents\projects\HttpConsoleClient\bin\Debug\netcoreapp2.2\HttpConsoleClient.dll
+C:\Users\vincent\Documents\projects\HttpConsoleClient\bin\Debug\netcoreapp2.2\HttpConsoleClient.pdb
+C:\Users\vincent\Documents\projects\HttpConsoleClient\obj\Debug\netcoreapp2.2\HttpConsoleClient.csprojAssemblyReference.cache
+C:\Users\vincent\Documents\projects\HttpConsoleClient\obj\Debug\netcoreapp2.2\HttpConsoleClient.csproj.CoreCompileInputs.cache
+C:\Users\vincent\Documents\projects\HttpConsoleClient\obj\Debug\netcoreapp2.2\HttpConsoleClient.AssemblyInfoInputs.cache
+C:\Users\vincent\Documents\projects\HttpConsoleClient\obj\Debug\netcoreapp2.2\HttpConsoleClient.AssemblyInfo.cs
+C:\Users\vincent\Documents\projects\HttpConsoleClient\obj\Debug\netcoreapp2.2\HttpConsoleClient.dll
+C:\Users\vincent\Documents\projects\HttpConsoleClient\obj\Debug\netcoreapp2.2\HttpConsoleClient.pdb
