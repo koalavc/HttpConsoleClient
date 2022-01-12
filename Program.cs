@@ -13,7 +13,7 @@ namespace HttpConsoleClient
             //http.BaseAddress = new Uri("https://swapi.co");
 
             //http.GetAsync("https://swapi.co/api/people/");
-            var jsonString = http.GetStringAsync("https://swapi.co/api/people/").Result;
+            var jsonString = http.GetStringAsync("https://swapi.dev/api/people/").Result;
 
             var jsonObject = JsonConvert.DeserializeObject<PeopleList>(jsonString);
             var people = jsonObject.People;
@@ -22,7 +22,7 @@ namespace HttpConsoleClient
 
             var filteredPeople = people.Where(person => person.NumberOfVehicles > 0);
 
-            foreach(var person in filteredPeople)
+            foreach (var person in filteredPeople)
             {
                 Console.WriteLine("Name: " + person.name);
                 Console.WriteLine("Birth Year: " + person.birth_year);
@@ -34,7 +34,7 @@ namespace HttpConsoleClient
                 Console.WriteLine($"Mass: {person.mass + 10} \n");
                 Console.WriteLine($"Number of Vehicles: {person.NumberOfVehicles}");
                 //Console.WriteLine($"Mass2: {mass2} \n");
-                foreach(var jsonUrl in person.vehiclesJson) 
+                foreach (var jsonUrl in person.vehiclesJson)
                 {
                     Console.WriteLine($"Vehicle: " + jsonUrl);
                     var result = http.GetStringAsync(jsonUrl).Result;
